@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>温立誠的網頁</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: rgb(225, 215, 143);
+        }
+        header,footer{
+            font-size: 2em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(107, 28, 28);
+            text-align: center;
+        }
+        .box{
+            background-color: #fff;
+            border: 3px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 50px auto;
+        }
+        .text{
+            display: flex;
+            justify-content: space-around;
+            font-size: 1em;
+            color:rgb(108, 96, 80);
+            flex-shrink: 1;
+            flex-basis: 60vw;
+        }
+        .box img{
+            height: 250px;
+            width: auto;
+            border: 3px solid black;
+            box-shadow: 2px 2px 4px rgb(213, 19, 19);
+        }
+        .box2{
+            flex-wrap: wrap;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            margin: 50px auto;
+            align-items: center;
+        }
+        .box2 a:hover{
+            color:green;
+            font-size: 2em;
+        }
+        @media screen and (max-width: 768px){
+            .box2{
+                border: 3px solid black;
+                flex-direction: row;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+                margin: 50px auto; 
+            }
+        }
+        @keyframes animation{
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+          <h1>個人網站</h1>
+    </header>
+    <main>
+        <div class="box">
+            <div class="text">
+                <p>吳家寧今天在路上看到鬼。</p>
+                <p>陳信志抽菸bad</p>
+            </div>
+            <img src="./nmixx-5120x2880-21766.jpg" alt="">
+        </div>
+        <div class="box2">
+            <p>今天去的地方</p>
+            <ul>
+                <li>蓮華池</li>
+                <li>桃米坑</li>
+                <li>玩遊戲</li>
+            </ul>
+            <a href="https://www.instagram.com" target="_blank">吳家寧的ig</a>
+        </div> 
+    </main  >
+    <footer>
+        <h1>這是結尾</h1>
+    </footer>
+</body>
+</html>
